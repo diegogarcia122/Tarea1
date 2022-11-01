@@ -426,7 +426,7 @@ public class FrmPersona extends javax.swing.JFrame {
     }//GEN-LAST:event_jBtnEliminarActionPerformed
 
     private void llenarTabla() {
-        var tbl = new DefaultTableModel();
+        DefaultTableModel tbl = new DefaultTableModel();
         tbl = dP.getListPers();
         jTblRegistros.setModel(tbl);
     }
